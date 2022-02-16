@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Module2HW6
 {
-    internal class SmallKitchenAppliance : KitchenAppliance
+    public interface IApartment
     {
+        public int CalculateTotalPower(AbstractAppliance[] appliance);
     }
 }
